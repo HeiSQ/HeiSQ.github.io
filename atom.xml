@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-12-28T06:14:24.200Z</updated>
+  <updated>2019-12-28T07:18:57.733Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,21 +21,28 @@
     <link href="http://yoursite.com/2019/12/28/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
     <id>http://yoursite.com/2019/12/28/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
     <published>2019-12-28T05:26:07.000Z</published>
-    <updated>2019-12-28T06:14:24.200Z</updated>
+    <updated>2019-12-28T07:18:57.733Z</updated>
     
-    <content type="html"><![CDATA[<h2>你好,这是测试文章</h2>]]></content>
+    <content type="html"><![CDATA[<h2>你好,这是测试文章</h2><h2>时间：下午03:18</h2>]]></content>
     
     <summary type="html">
     
       
       
         &lt;h2&gt;你好,这是测试文章&lt;/h2&gt;
+&lt;h2&gt;时间：下午03:18&lt;/h2&gt;
 
       
     
     </summary>
     
     
+      <category term="闲杂文章" scheme="http://yoursite.com/categories/%E9%97%B2%E6%9D%82%E6%96%87%E7%AB%A0/"/>
+    
+    
+      <category term="你好" scheme="http://yoursite.com/tags/%E4%BD%A0%E5%A5%BD/"/>
+    
+      <category term="来访者" scheme="http://yoursite.com/tags/%E6%9D%A5%E8%AE%BF%E8%80%85/"/>
     
   </entry>
   

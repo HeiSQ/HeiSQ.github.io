@@ -5,9 +5,9 @@
   <subtitle>放弃不难，但坚持一定很酷</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://heisq.top/"/>
   <updated>2019-12-28T07:18:57.733Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://heisq.top/</id>
   
   <author>
     <name>不知名的某乔</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>第一篇文章</title>
-    <link href="http://yoursite.com/2019/12/28/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>http://yoursite.com/2019/12/28/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <link href="https://heisq.top/2019/12/28/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>https://heisq.top/2019/12/28/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
     <published>2019-12-28T05:26:07.000Z</published>
     <updated>2019-12-28T07:18:57.733Z</updated>
     
@@ -37,19 +37,19 @@
     </summary>
     
     
-      <category term="闲杂文章" scheme="http://yoursite.com/categories/%E9%97%B2%E6%9D%82%E6%96%87%E7%AB%A0/"/>
+      <category term="闲杂文章" scheme="https://heisq.top/categories/%E9%97%B2%E6%9D%82%E6%96%87%E7%AB%A0/"/>
     
     
-      <category term="你好" scheme="http://yoursite.com/tags/%E4%BD%A0%E5%A5%BD/"/>
+      <category term="你好" scheme="https://heisq.top/tags/%E4%BD%A0%E5%A5%BD/"/>
     
-      <category term="来访者" scheme="http://yoursite.com/tags/%E6%9D%A5%E8%AE%BF%E8%80%85/"/>
+      <category term="来访者" scheme="https://heisq.top/tags/%E6%9D%A5%E8%AE%BF%E8%80%85/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/12/27/hello-world/"/>
-    <id>http://yoursite.com/2019/12/27/hello-world/</id>
+    <link href="https://heisq.top/2019/12/27/hello-world/"/>
+    <id>https://heisq.top/2019/12/27/hello-world/</id>
     <published>2019-12-27T15:15:49.971Z</published>
     <updated>2019-12-27T15:15:49.971Z</updated>
     

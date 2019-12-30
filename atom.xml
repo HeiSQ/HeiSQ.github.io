@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>你好，我是石乔</title>
+  <title>石乔的博客</title>
   
-  <subtitle>放弃不难，但坚持一定很酷</subtitle>
+  <subtitle>https://heisq.top/</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://heisq.top/"/>
@@ -10,7 +10,7 @@
   <id>https://heisq.top/</id>
   
   <author>
-    <name>不知名的某乔</name>
+    <name>石乔</name>
     
   </author>
   

@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>springboot项目打成war包并部署到Linux的Tomcat中</title>
+      <link href="/posts/9da0efe6.html"/>
+      <url>/posts/9da0efe6.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="启动类继承SpringBootServletInitializer"><a href="#启动类继承SpringBootServletInitializer" class="headerlink" title="启动类继承SpringBootServletInitializer"></a>启动类继承<code>SpringBootServletInitializer</code></h2><ol><li><p>打开你的Application启动类</p></li><li><p>在类目后面继承 SpringBootServletInitializer</p></li><li><p>并重写 configure 方法<br><img src="https://img-blog.csdnimg.cn/20200317142044857.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0hlaVNR,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p><h2 id="pom文件添加-lt-packaging-gt-war-lt-packaging-gt"><a href="#pom文件添加-lt-packaging-gt-war-lt-packaging-gt" class="headerlink" title="pom文件添加&lt; packaging&gt;war&lt; /packaging&gt;"></a>pom文件添加<code>&lt; packaging&gt;war&lt; /packaging&gt;</code></h2></li><li><p>打开你的pom.xml，添加下面的标签</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;packaging&gt;war&lt;/packaging&gt;</span><br></pre></td></tr></table></figure></li></ol><h2 id="mvn命令操作（clean、install）"><a href="#mvn命令操作（clean、install）" class="headerlink" title="mvn命令操作（clean、install）"></a>mvn命令操作（clean、install）</h2><ol start="6"><li>第五条步骤执行好后，先clean一下当前项目，之后再执行install</li><li>执行完成后 下方会提示是否成功  箭头所指位置如果提示 SUCCESS 即为打包成功</li><li>打包好的war包会存放到项目的target目录<br><img src="https://img-blog.csdnimg.cn/20200317143342319.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0hlaVNR,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li></ol><h2 id="打好的war包部署到Linux的Tomcat中"><a href="#打好的war包部署到Linux的Tomcat中" class="headerlink" title="打好的war包部署到Linux的Tomcat中"></a>打好的war包部署到Linux的Tomcat中</h2><ol><li>连接好Linux后进入Tomcat的webapps目录中</li><li>将war包上传进/webapps/中</li><li>上传完进入Tomcat的bin目录</li><li>执行下面命令启动Tomcat</li></ol><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./startup.sh | tail -f ../logs/catalina.out &amp;</span><br></pre></td></tr></table></figure><h2 id="本地访问部署好的项目"><a href="#本地访问部署好的项目" class="headerlink" title="本地访问部署好的项目"></a>本地访问部署好的项目</h2><ol><li>在本地浏览器访问Linux中部署的项目： </li><li>格式：Linux的ip：Tomcat端口号/web文件夹名</li><li>例如：<a href="http://172.16.1XX.XX3:8082/p2p-web/index" target="_blank" rel="noopener">http://172.16.1XX.XX3:8082/p2p-web/index</a><br><img src="https://img-blog.csdnimg.cn/20200317151119854.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0hlaVNR,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java技术相关 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> Linux </tag>
+            
+            <tag> Tomcat </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>前言</title>
       <link href="/posts/7819a34e.html"/>
       <url>/posts/7819a34e.html</url>

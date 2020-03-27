@@ -492,6 +492,172 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://heisq.top/posts/cf7e4c96.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="不知名的某乔">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="石乔的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/posts/cf7e4c96.html" itemprop="url">RabbitMQ消息队列_从入门到精通——RabbitMQ的安装与启动</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+          
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-27T20:42:07+08:00">
+                2020-03-27
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  1.3k
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  5
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h1 id="第1章-RabbitMQ安装"><a href="#第1章-RabbitMQ安装" class="headerlink" title="第1章 RabbitMQ安装"></a>第1章 RabbitMQ安装</h1><p>一般来说安装RabbitMQ之前要安装Erlang，可以去Erlang官网下载。<br>接着去RabbitMQ官网下载安装包，之后解压缩即可。<br>Erlang官方下载地址：<a href="https://www.erlang.org/downloads" target="_blank" rel="noopener">https://www.erlang.org/downloads</a><br>RabbitMQ官方下载地址：<a href="https://www.rabbitmq.com/download.html" target="_blank" rel="noopener">https://www.rabbitmq.com/download.html</a><br>不方便去官网下载的可以去<a href="https://pan.baidu.com/s/1fg7XIySTHpL1KltmJ-Wjjg" target="_blank" rel="noopener">百度网盘下载</a>  提取码：cweu<br><img src="https://img-blog.csdnimg.cn/20200327202438625.png" alt="在这里插入图片描述"></p>
+<h2 id="1-1-安装前的准备"><a href="#1-1-安装前的准备" class="headerlink" title="1.1 安装前的准备"></a>1.1 安装前的准备</h2><h3 id="1-1-1-依赖包安装"><a href="#1-1-1-依赖包安装" class="headerlink" title="1.1.1 依赖包安装"></a>1.1.1 依赖包安装</h3><p>安装RabbitMQ之前必须要先安装所需要的依赖包，可以使用下面的一次性安装命令：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install gcc glibc-devel make ncurses-devel openssl-devel xmlto</span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/posts/cf7e4c96.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+    
+    
+    
+    
+    <div>
+      
+    </div>
+
+    <div>
+          
+    </div>
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://heisq.top/posts/9da0efe6.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -616,10 +782,18 @@
 
       
         
-          此篇文章将会告诉你如何把springboot项目打成war包并部署到Linux的Tomcat中去
+          <h2 id="启动类继承SpringBootServletInitializer"><a href="#启动类继承SpringBootServletInitializer" class="headerlink" title="启动类继承SpringBootServletInitializer"></a>启动类继承<code>SpringBootServletInitializer</code></h2><ol>
+<li><p>打开你的Application启动类</p>
+</li>
+<li><p>在类目后面继承 SpringBootServletInitializer</p>
+</li>
+<li><p>并重写 configure 方法<br><img src="https://img-blog.csdnimg.cn/20200317142044857.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0hlaVNR,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="pom文件添加-lt-packaging-gt-war-lt-packaging-gt"><a href="#pom文件添加-lt-packaging-gt-war-lt-packaging-gt" class="headerlink" title="pom文件添加&lt; packaging&gt;war&lt; /packaging&gt;"></a>pom文件添加<code>&lt; packaging&gt;war&lt; /packaging&gt;</code></h2></li>
+<li><p>打开你的pom.xml，添加下面的标签</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;packaging&gt;war&lt;/packaging&gt;</span><br></pre></td></tr></table></figure>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/posts/9da0efe6.html">
+            <a class="btn" href="/posts/9da0efe6.html#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -898,7 +1072,7 @@
               
                 <a href="/archives/%7C%7C%20archive">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -1043,7 +1217,7 @@
 
 <div class="theme-info">
 <div class="powered-by"></div>
-<span class="post-count">博客全站共285字</span></div>
+<span class="post-count">博客全站共1.6k字</span></div>
 
         
 

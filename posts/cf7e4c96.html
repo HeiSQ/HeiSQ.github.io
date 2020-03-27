@@ -83,14 +83,20 @@
 
 
 
-<meta name="description" content="放弃不难，但坚持一定很酷">
-<meta property="og:type" content="website">
-<meta property="og:title" content="石乔的博客">
-<meta property="og:url" content="https://heisq.top/tags/Java/index.html">
+<meta name="description" content="第1章 RabbitMQ安装一般来说安装RabbitMQ之前要安装Erlang，可以去Erlang官网下载。接着去RabbitMQ官网下载安装包，之后解压缩即可。Erlang官方下载地址：https:&#x2F;&#x2F;www.erlang.org&#x2F;downloadsRabbitMQ官方下载地址：https:&#x2F;&#x2F;www.rabbitmq.com&#x2F;download.html不方便去官网下载的可以去百度网盘下载  提">
+<meta property="og:type" content="article">
+<meta property="og:title" content="RabbitMQ消息队列_从入门到精通——RabbitMQ的安装与启动">
+<meta property="og:url" content="https://heisq.top/posts/cf7e4c96.html">
 <meta property="og:site_name" content="石乔的博客">
-<meta property="og:description" content="放弃不难，但坚持一定很酷">
+<meta property="og:description" content="第1章 RabbitMQ安装一般来说安装RabbitMQ之前要安装Erlang，可以去Erlang官网下载。接着去RabbitMQ官网下载安装包，之后解压缩即可。Erlang官方下载地址：https:&#x2F;&#x2F;www.erlang.org&#x2F;downloadsRabbitMQ官方下载地址：https:&#x2F;&#x2F;www.rabbitmq.com&#x2F;download.html不方便去官网下载的可以去百度网盘下载  提">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200327202438625.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/2020032720053355.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0hlaVNR,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200327202540959.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0hlaVNR,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="article:published_time" content="2020-03-27T12:42:07.753Z">
+<meta property="article:modified_time" content="2020-03-27T12:50:07.408Z">
 <meta property="article:author" content="不知名的某乔">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/20200327202438625.png">
 
 
 
@@ -120,7 +126,7 @@
 
 
 
-  <link rel="canonical" href="https://heisq.top/tags/Java/"/>
+  <link rel="canonical" href="https://heisq.top/posts/cf7e4c96.html"/>
 
 
 
@@ -136,7 +142,7 @@
   </script>
 
 
-  <title>标签: Java | 石乔的博客</title>
+  <title>RabbitMQ消息队列_从入门到精通——RabbitMQ的安装与启动 | 石乔的博客</title>
   
 
 
@@ -155,7 +161,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -283,54 +289,368 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>Java<small>标签</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://heisq.top/posts/cf7e4c96.html">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="不知名的某乔">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="石乔的博客">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/posts/9da0efe6.html" itemprop="url">
-              
-                <span itemprop="name">springboot项目打成war包并部署到Linux的Tomcat中</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">RabbitMQ消息队列_从入门到精通——RabbitMQ的安装与启动</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2020-03-17T15:30:16+08:00"
-              content="2020-03-17" >
-          03-17
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+          
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-27T20:42:07+08:00">
+                2020-03-27
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  1.3k
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  5
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="第1章-RabbitMQ安装"><a href="#第1章-RabbitMQ安装" class="headerlink" title="第1章 RabbitMQ安装"></a>第1章 RabbitMQ安装</h1><p>一般来说安装RabbitMQ之前要安装Erlang，可以去Erlang官网下载。<br>接着去RabbitMQ官网下载安装包，之后解压缩即可。<br>Erlang官方下载地址：<a href="https://www.erlang.org/downloads" target="_blank" rel="noopener">https://www.erlang.org/downloads</a><br>RabbitMQ官方下载地址：<a href="https://www.rabbitmq.com/download.html" target="_blank" rel="noopener">https://www.rabbitmq.com/download.html</a><br>不方便去官网下载的可以去<a href="https://pan.baidu.com/s/1fg7XIySTHpL1KltmJ-Wjjg" target="_blank" rel="noopener">百度网盘下载</a>  提取码：cweu<br><img src="https://img-blog.csdnimg.cn/20200327202438625.png" alt="在这里插入图片描述"></p>
+<h2 id="1-1-安装前的准备"><a href="#1-1-安装前的准备" class="headerlink" title="1.1 安装前的准备"></a>1.1 安装前的准备</h2><h3 id="1-1-1-依赖包安装"><a href="#1-1-1-依赖包安装" class="headerlink" title="1.1.1 依赖包安装"></a>1.1.1 依赖包安装</h3><p>安装RabbitMQ之前必须要先安装所需要的依赖包，可以使用下面的一次性安装命令：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install gcc glibc-devel make ncurses-devel openssl-devel xmlto</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+<h3 id="1-1-2安装Erlang"><a href="#1-1-2安装Erlang" class="headerlink" title="1.1.2安装Erlang"></a>1.1.2安装Erlang</h3><ol>
+<li>手动在Linux的/usr/local目录下创建Erlang的安装目录</li>
+</ol>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir /usr/local/erlang</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>将Erlang源代码包otp_src_19.3.tar.gz上传到/usr/local/erlang目录下</li>
+<li>解压erlang 源码包<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar -zxvf otp_src_19<span class="number">.3</span>.tar.gz</span><br></pre></td></tr></table></figure></li>
+<li>进入erlang的解压目录</li>
+</ol>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd otp_src_19<span class="number">.3</span></span><br></pre></td></tr></table></figure>
+<ol start="5">
+<li>配置erlang的安装信息</li>
+</ol>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./configure --prefix=/usr/local/erlang --without-javac</span><br></pre></td></tr></table></figure>
+<ol start="6">
+<li>编译并安装</li>
+</ol>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make &amp;&amp; make install</span><br></pre></td></tr></table></figure>
+<ol start="7">
+<li>配置环境变量</li>
+</ol>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/profile</span><br></pre></td></tr></table></figure>
+<ol start="8">
+<li>将这些配置填写到profile文件的最后</li>
+</ol>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ERL_HOME=/usr/local/erlang</span><br><span class="line">PATH=$ERL_HOME/bin:$PATH</span><br><span class="line">export ERL_HOME PATH</span><br></pre></td></tr></table></figure>
+<ol start="9">
+<li>启动环境变量配置文件(启动后不会有提示)</li>
+</ol>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source /etc/profile</span><br></pre></td></tr></table></figure>
+<h2 id="1-2-安装RabbitMQ"><a href="#1-2-安装RabbitMQ" class="headerlink" title="1.2 安装RabbitMQ"></a>1.2 安装RabbitMQ</h2><ol>
+<li>将RabbitMQ安装包安装包rabbitmq-server-3.7.2-1.el7.noarch.rpm 上传到/home目录</li>
+<li>安装RabbitMQ</li>
+</ol>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rpm -ivh --nodeps rabbitmq-server-<span class="number">3.7</span><span class="number">.2</span>-<span class="number">1</span>.el7.noarch.rpm</span><br></pre></td></tr></table></figure>
+<h2 id="1-3-Rabbit常用命令"><a href="#1-3-Rabbit常用命令" class="headerlink" title="1.3 Rabbit常用命令"></a>1.3 Rabbit常用命令</h2><h3 id="1-3-1-启动和关闭"><a href="#1-3-1-启动和关闭" class="headerlink" title="1.3.1 启动和关闭"></a>1.3.1 启动和关闭</h3><ol>
+<li>启动RabbitMQ</li>
+</ol>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rabbitmq-server start &amp;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>注意：这里可能会出现错误，错误原因是/var/lib/rabbitmq/.erlang.cookie文件权限不够。 解决方案对这个文件授权<br>chown rabbitmq:rabbitmq /var/lib/rabbitmq/.erlang.cookie chmod 400<br>/var/lib/rabbitmq/.erlang.cookie</p>
+</blockquote>
+<ol start="2">
+<li>停止服务</li>
+</ol>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rabbitmqctl stop</span><br></pre></td></tr></table></figure>
+<h3 id="1-3-2-插件管理"><a href="#1-3-2-插件管理" class="headerlink" title="1.3.2 插件管理"></a>1.3.2 插件管理</h3><ol>
+<li>添加插件<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rabbitmq-plugins enable &#123;插件名&#125;</span><br></pre></td></tr></table></figure></li>
+<li>删除插件</li>
+</ol>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rabbitmq-plugins disable &#123;插件名&#125;</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li><strong>注意：RabbitMQ启动以后可以使用浏览器进入管控台但是默认情况RabbitMQ不允许直接使用浏览器浏览器进行访问因此必须添加插件</strong><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rabbitmq-plugins enable rabbitmq_management</span><br></pre></td></tr></table></figure></li>
+<li>使用浏览器访问管控台<a href="http://RabbitMQ服务器IP:15672" target="_blank" rel="noopener">http://RabbitMQ服务器IP:15672</a></li>
+</ol>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http:<span class="comment">//172.16.188.133:15672</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/2020032720053355.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0hlaVNR,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h3 id="1-3-3-用户管理"><a href="#1-3-3-用户管理" class="headerlink" title="1.3.3 用户管理"></a>1.3.3 用户管理</h3><p>RabbitMQ安装成功后使用默认用户名guest登录</p>
+<blockquote>
+<p>账号：guest<br>密码：guest</p>
+</blockquote>
+<p><em>注意：这里guest只允许本机登录访问需要创建用户并授权远程访问命令如下</em> </p>
+<ol>
+<li>添加用户：<code>rabbitmqctl add_user {username} {password}</code></li>
+</ol>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rabbitmqctl add_user root root</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li>删除用户：<code>rabbitmqctl delete_user {username}</code></li>
+</ol>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rabbitmqctl delete_user root</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>修改密码：<code>rabbitmqctl change_password {username} {newpassword}</code></li>
+</ol>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rabbitmqctl change_password root <span class="number">123456</span></span><br></pre></td></tr></table></figure>
+<ol start="4">
+<li>设置用户角色：<code>rabbitmqctl set_user_tags {username} {tag}</code></li>
+</ol>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rabbitmqctl set_user_tags root administrator</span><br></pre></td></tr></table></figure>
+
+<p>tag参数表示用户角色取值为：<code>management ，monitoring ，policymaker  administrator</code><br>各角色详解：  </p>
+<ul>
+<li><code>management</code><ul>
+<li>用户可以通过AMQP做的任何事外加： </li>
+<li>列出自己可以通过AMQP登入的virtual hosts  </li>
+<li>查看自己的virtual hosts中的queues, exchanges 和 bindings </li>
+<li>查看和关闭自己的channels 和 connections </li>
+<li>查看有关自己的virtual hosts的“全局”的统计信息，包含其他用户在这些virtual<br>hosts中的活动。</li>
+</ul>
+</li>
+<li><code>policymaker</code><ul>
+<li><code>management</code><ul>
+<li>可以做的任何事外加：</li>
+<li>查看、创建和删除自己的virtual hosts所属的policies和parameters</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>monitoring</code><ul>
+<li><code>management</code></li>
+<li>可以做的任何事外加： </li>
+<li>列出所有virtual hosts，包括他们不能登录的virtual hosts </li>
+<li>查看其他用户的connections和channels </li>
+<li>查看节点级别的数据如clustering和memory使用情况</li>
+<li>查看真正的关于所有virtual hosts的全局的统计信息</li>
+</ul>
+</li>
+<li><code>administrator</code><ul>
+<li><code>policymaker</code>和<code>monitoring</code>可以做的任何事外加: </li>
+<li>创建和删除virtual hosts</li>
+<li>查看、创建和删除users </li>
+<li>查看创建和删除permissions </li>
+<li>关闭其他用户的connections</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/20200327202540959.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0hlaVNR,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h3 id="1-3-4-权限管理"><a href="#1-3-4-权限管理" class="headerlink" title="1.3.4 权限管理"></a>1.3.4 权限管理</h3><ol>
+<li>授权命令：<code>rabbitmqctl set_permissions [-p vhostpath] {user} {conf} {write} {read}</code></li>
+</ol>
+<p>-p vhostpath ：用于指定一个资源的命名空间，例如 –p / 表示根路径命名空间<br>user：用于指定要为哪个用户授权填写用户名<br>     conf:一个正则表达式match哪些配置资源能够被该用户配置。<br>       write:一个正则表达式match哪些配置资源能够被该用户读。<br>       read:一个正则表达式match哪些配置资源能够被该用户访问。<br>   例如：<br><code>rabbitmqctl set_permissions -p / root &#39;.*&#39; &#39;.*&#39; &#39;.*&#39;</code><br>   用于设置root用户拥有对所有资源的 读写配置权限<br>2. 查看用户权限 <code>rabbitmqctl  list_permissions [vhostpath]</code><br>例如<br>  查看根径经下的所有用户权限<br>  <code>rabbitmqctl  list_permissions</code><br>  查看指定命名空间下的所有用户权限<br> <code>rabbitmqctl  list_permissions /abc</code><br>3. 查看指定用户下的权限<code>rabbitmqctl  list_user_permissions {username}</code><br>例如<br>  查看root用户下的权限<br> <code>rabbitmqctl  list_user_permissions root</code><br>4. 清除用户权限<code>rabbitmqctl  clear_permissions {username}</code><br>例如：<br>    清除root用户的权限<br><code>rabbitmqctl  clear_permissions root</code></p>
+<h3 id="1-3-5-vhost管理"><a href="#1-3-5-vhost管理" class="headerlink" title="1.3.5 vhost管理"></a>1.3.5 vhost管理</h3><p> vhost是RabbitMQ中的一个命名空间，可以限制消息的存放位置利用这个命名空间可以进行权限的控制有点类似Windows中的文件夹一样，在不同的文件夹中存放不同的文件。</p>
+<ol>
+<li>添加vhost: rabbitmqctl add vhost {name}<br>例如<br><code>rabbitmqctl add vhost bjpowernode</code></li>
+<li>删除vhost：rabbitmqctl delete vhost {name}<br>例如<br> <code>rabbitmqctl delete vhost bjpowernode</code></li>
+</ol>
+<blockquote>
+<p>至此，以上便是-RabbitMQ消息队列|从入门到精通——RabbitMQ的安装与启动-的全部内容<br>我是石乔，一个尚在努力着的Java程序员<br>愿我的文章可以帮助到你，共同努力，加油！</p>
+</blockquote>
+
+      
+    </div>
+    
+    
+    
+    
+    <div>
+      
+        <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
 
       
     </div>
 
+    <div>
+          
+            
+
+          
+    </div>
+
+    
+      <div>
+        <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="https://i.loli.net/2019/12/28/C3Yi2sbTc9hMVGl.jpg" alt="不知名的某乔 wechat" style="width: 200px; max-width: 100%;"/>
+    <div>扫码关注公众号，每日学习新技术。</div>
+</div>
+
+      </div>
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="不知名的某乔 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="不知名的某乔 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/posts/9da0efe6.html" rel="next" title="springboot项目打成war包并部署到Linux的Tomcat中">
+                <i class="fa fa-chevron-left"></i> springboot项目打成war包并部署到Linux的Tomcat中
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
+
+
+    <div class="post-spread">
+      
+        
+<script>
+  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+
+      
+    </div>
+  </div>
 
 
           </div>
@@ -338,6 +658,15 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC80ODExMi8yNDYwOQ"></div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -358,8 +687,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -484,6 +822,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#第1章-RabbitMQ安装"><span class="nav-number">1.</span> <span class="nav-text">第1章 RabbitMQ安装</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-1-安装前的准备"><span class="nav-number">1.1.</span> <span class="nav-text">1.1 安装前的准备</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-1-1-依赖包安装"><span class="nav-number">1.1.1.</span> <span class="nav-text">1.1.1 依赖包安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-1-2安装Erlang"><span class="nav-number">1.1.2.</span> <span class="nav-text">1.1.2安装Erlang</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-2-安装RabbitMQ"><span class="nav-number">1.2.</span> <span class="nav-text">1.2 安装RabbitMQ</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-3-Rabbit常用命令"><span class="nav-number">1.3.</span> <span class="nav-text">1.3 Rabbit常用命令</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-3-1-启动和关闭"><span class="nav-number">1.3.1.</span> <span class="nav-text">1.3.1 启动和关闭</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-3-2-插件管理"><span class="nav-number">1.3.2.</span> <span class="nav-text">1.3.2 插件管理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-3-3-用户管理"><span class="nav-number">1.3.3.</span> <span class="nav-text">1.3.3 用户管理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-3-4-权限管理"><span class="nav-number">1.3.4.</span> <span class="nav-text">1.3.4 权限管理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-3-5-vhost管理"><span class="nav-number">1.3.5.</span> <span class="nav-text">1.3.5 vhost管理</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -635,6 +989,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -663,6 +1021,17 @@
 
 
 
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
   
 
 

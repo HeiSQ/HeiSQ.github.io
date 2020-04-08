@@ -90,7 +90,7 @@
 <meta property="og:site_name" content="石乔的博客">
 <meta property="og:description" content="问： HashMap的容量是多少？负载因子是什么？容量如何变化？容量不够怎么办答：  数组大小是由 capacity 这个参数确定的，默认是16，也可以构造时传入，最大限制是1&lt;&lt;30；loadFactor 是负载因子，主要目的是用来确认table 数组是否需要动态扩展，默认值是0.75，比如table 数组大小为 16，装载因子为 0.75 时，threshold 就是12，当 ta">
 <meta property="article:published_time" content="2020-04-08T15:26:25.792Z">
-<meta property="article:modified_time" content="2020-04-08T15:27:13.639Z">
+<meta property="article:modified_time" content="2020-04-08T15:28:21.594Z">
 <meta property="article:author" content="不知名的某乔">
 <meta name="twitter:card" content="summary">
 
@@ -403,6 +403,7 @@
 <blockquote>
 <p>数组大小是由 capacity 这个参数确定的，默认是16，也可以构造时传入，最大限制是1&lt;&lt;30；<br>loadFactor 是负载因子，主要目的是用来确认table 数组是否需要动态扩展，默认值是0.75，比如table 数组大小为 16，装载因子为 0.75 时，threshold 就是12，当 table 的实际大小超过 12 时，table就需要动态扩容；<br>扩容时，调用 resize() 方法，将 table 长度变为原来的两倍；<br>扩容时创建一个新的数组，其容量为旧数组的两倍，并重新计算旧数组中结点的存储位置；<br>如果数据量很大的情况下，扩容时将会带来性能的损失，在性能要求很高的地方，这种操作性能很低；</p>
 </blockquote>
+<a id="more"></a>
 <p>问：</p>
 <pre><code>HashMap中put方法的过程</code></pre><p>答：</p>
 <blockquote>
@@ -695,6 +696,12 @@
                     <a href="mailto:heisq0802@gmail.com" target="_blank" title="E-Mail">
                       
                         <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://me.csdn.net/HeiSQ" target="_blank" title="CSDN">
+                      
+                        <i class="fa fa-fw fa-csdn"></i>CSDN</a>
                   </span>
                 
             </div>
